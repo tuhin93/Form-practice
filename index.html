@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        label{
+            margin: 5px;
+            padding: 5px
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+
+    <body>
+        <h2>Please fill up the form</h2>
+        <form>
+            <label for="name"> Your Name:
+                <input type="text" placeholder="your name here">
+            </label>
+
+            <label for="Email">Your Email:
+                <input type="email" placeholder="your email here" required>
+            </label>
+            <label for="phone">Your number:
+                <input type="text">
+                <fieldset>
+                    <legend>Pick one cake</legend>
+                    <label for="cake" id="cake">
+                        <input type="radio" name="cake" id="">
+                        Vapa
+                    </label>
+                    <label for="cake" id="cake">
+                        <input type="radio" name="cake">
+                        Chitoi
+                    </label>
+                    <label for="cake" id="cake">
+                        <input type="radio" name="cake">
+                        Pakan
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one or more type of vorta</legend>
+                    <label for="vorta">
+                        <input type="checkbox" name="vorta" id="">Dhonia
+                    </label>
+                    <label for="vorta">
+                        <input type="checkbox" name="vorta" id="">Sorisa
+                    </label>
+                    <label for="vorta">
+                        <input type="checkbox" name="vorta" id="">Morich
+                    </label>
+                    <label for="vorta">
+                        <input type="checkbox" name="vorta" id="">Shutki
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Custom information</legend>
+                    <textarea name="" id="" cols="60" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+
+        </form>
+    </body>
+    <footer></footer>
+</body>
+
+</html>
